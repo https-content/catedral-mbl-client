@@ -57,7 +57,7 @@ export default function DefaultLayout({ children }: Props) {
       </div>
       <div className="w-full flex">
         <Sidemenu pages={pages} open={sideMenuOpen} toggle={toggleSideMenu} />
-        <div className="overflow-y-auto w-full">{children}</div>
+        <div className="overflow-y-auto w-full bg-black">{children}</div>
       </div>
     </div>
   );
